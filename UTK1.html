@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Utkarsh Foundation</title>
+	<link rel="stylesheet" type="text/css" href="E:/bootstrap-5.0.0-beta3-dist/bootstrap-5.0.0-beta3-dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="E:/bootstrap-5.0.0-beta3-dist/bootstrap-5.0.0-beta3-dist/js/bootstrap.min.js">
+	<link rel="stylesheet" type="text/css" href="cssutk.css">
+	
+</head>
+<body>
+
+	<div class="one">
+		<h1><img src="logo.jpg" width="150" height="150" alt="logo"> UTKARSH FOUNDATION</h1>
+	</div>
+
+	<div class="navbar">
+		<ul>
+			<li>Home</li>
+			<li>About</li>
+			<li>Contact</li>
+			<li>Mission</li>
+			<li>My Account</li>
+			<li>Donations</li>
+		</ul>
+	</div>
+
+	<div class="image1">
+		<!-- <img src="background.jpg" alt="firstimage"> -->
+		<h1>Small Effort Makes A Big Change</h1>
+		<h2>Together to make world a better place...</h2>
+
+		<button>DONATE</button>
+
+	</div>
+
+	<div class="vision">
+		<div class="vbox">
+			<p>The Utkarsh Foundation is a non-profit organisation with a mission to build the largest network of innovative schools that empowers children to maximise their potential and that influences systemic reform.</p>
+
+			<p>Utkarsh wants to educate children of low income communities across India and thus build up the gap between the "rich" and the "poor".</p>
+
+			<p>Looking ahead, we seek to expand our network of schools, share our effective practices and advocate for quality school reform for children across India.</p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="imgb1">
+			<img src="b1.jpg" width="250px" height="175px" alt="b1">
+			<h3>Send Donations</h3>
+			<h6>See how you can help our community grow</h6>
+			<button>FUNDRAISE --></button>
+		</div>
+
+		<div class="imgb2">
+			<img src="b2.jpg" width="250px" height="175px" alt="b2">
+			<h3>Become Volunteer</h3>
+			<h6>Together WE CAN through volunteering</h6>
+			<button>READ MORE --></button>
+		</div>
+
+		<div class="imgb3">
+			<img src="b3.jpg" width="250px" height="175px" alt="b3">
+			<h3>Join Us</h3>
+			<h6>Help, Promote, Grow and Empower</h6>
+			<button>READ MORE --></button>
+		</div>
+	</div>
+
+	
+	<div class="stats">
+		<div class="row">
+		<div class="stbox1">
+			<h2 style="text-decoration: underline; padding-bottom: 10px; color: purple;">STATISTICS</h2>
+			<h5><img src="children_logo.jpg" height="50px" width="50px" alt="clogo" style="padding-right: 10px;">90,000+ Children
+
+				<img src="vol_logo.jpg" style="margin-left: 42px; padding-right: 10px;" height="50px" width="50px" alt="vlogo">30,000+ Volunteers</h5>
+			
+			<h5 style="padding-top: 30px;"><img src="don_logo.png" height="50px" width="50px" alt="clogo" style="padding-right: 10px;">120M+ Donations
+
+				<img src="edu_logo.png" style="margin-left: 37px; padding-right: 10px;" height="50px" width="50px" alt="vlogo">60,000+ Educators</h5>
+
+		</div>
+
+		<div class="stbox2">
+			<!-- <video height="250px" width="500px" > -->
+				<iframe width="500" height="250" src="https://www.youtube.com/embed/dprytP4njP4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<!-- <source src="https://www.youtube.com/watch?v=dprytP4njP4" type="youtube"> -->
+			<!-- </video> -->
+		</div>
+	</div>
+	</div>
+
+<h3 style="text-decoration: underline; margin-left: 100px; padding-bottom: 10px; color: green;">SOME GLIMPSES</h3>
+
+<div class="slideshow-container">
+  <div class="mySlides1">
+    <img src="c1.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="c4.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="c5.jpg" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+</div>
+<script>
+var slideIndex = [1,1];
+var slideId = ["mySlides1", "mySlides2"]
+showSlides(1, 0);
+showSlides(1, 1);
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
+</script>
+
+<div class="footer">
+<div class="row">
+	<div class="office">
+		<h5>Main Office</h5>
+		<h6>456, Somwar Peth, Khadiche Maidan Chowk, Pune - 411011</h6>
+		<h6>Phone No. - (+91)9881099883</h6>
+		<h6>Email - utkarsh.foundation@edu.org</h6>
+	</div>
+
+	<div class="newsletter">
+		<h5>Newsletter</h5>
+		<h6>Sakal Private Limited, The Jumbo Edition</h6>
+	5
+	</div>
+
+	<div class="implinks">
+		<h5>Important Links</h5>
+		<h6><a href="https://www.w3schools.com/html/html_links.asp" target="_blank">Our Sponsors</a></h6>
+		<h6><a href="https://www.youtube.com/watch?v=mhxtVN2PyvE&t=429s" target="_blank">Donate</a></h6>
+		<h6><a href="https://www.youtube.com/watch?v=mhxtVN2PyvE&t=429s" target="_blank">Home</a></h6>
+		<h6><a href="https://www.youtube.com/watch?v=mhxtVN2PyvE&t=429s" target="_blank">About</a></h6>
+		<h6><a href="https://www.youtube.com/watch?v=mhxtVN2PyvE&t=429s" target="_blank">Contact Us</a></h6>
+	</div>
+</div>
+</div>	
+
+</body>
+</html>
